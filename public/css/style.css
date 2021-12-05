@@ -111,5 +111,122 @@ body {
     opacity: 1;
   }
 }
+@media screen and (max-width: 769px) {
+  .navBar {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 150px;
+    position: relative;
+  }
+  .navBar .navBarContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: -15px;
+  }
+  .navBar .navBarContainer img {
+    width: 120px;
+    translate: -50%, -50%;
+  }
+  .navBar .search {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+    z-index: 5;
+  }
+  .navBar .search input {
+    width: 130px;
+    height: 15px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  .navBar .search button {
+    background: #3B4650;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px;
+    border: none;
+    font-size: 16px;
+  }
+  .navBar .search #error {
+    position: absolute;
+    bottom: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #9e2a2b;
+  }
+
+  .lyricsContainer {
+    z-index: 0;
+    width: 80%;
+    min-height: 88vh;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .navBar {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    position: relative;
+  }
+  .navBar .navBarContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: -15px;
+  }
+  .navBar .navBarContainer img {
+    width: 120px;
+    translate: -50%, -50%;
+  }
+  .navBar .search {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+    z-index: 5;
+  }
+  .navBar .search input {
+    width: 100px;
+    height: 15px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  .navBar .search button {
+    background: #3B4650;
+    color: white;
+    padding: 6px;
+    border-radius: 10px 10px;
+    border: none;
+    font-size: 14px;
+  }
+  .navBar .search #error {
+    position: absolute;
+    bottom: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #9e2a2b;
+  }
+
+  .lyricsContainer {
+    z-index: 0;
+    width: 90%;
+    min-height: 88vh;
+    margin-top: 0px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
