@@ -127,18 +127,21 @@ body
         justify-content: center;
         height: 150px;
         position: relative;
+        width: 100%;
         .navBarContainer {
             display: flex;
             justify-content: center;
             position: absolute;
             margin: auto;
             top: -15px;
+            width: 100%;
             img {
                 width: 120px;
                 translate: (-50%, -50%);
             }
         }
         .search {
+            width: 100%;
             display: flex;
             justify-content: center;
             flex-direction: row;
@@ -200,6 +203,7 @@ body
         position: relative;
         .navBarContainer {
             display: flex;
+            width: 100%;
             justify-content: center;
             position: absolute;
             margin: auto;
@@ -211,6 +215,7 @@ body
         }
         .search {
             display: flex;
+            width: 100%;
             justify-content: center;
             flex-direction: row;
             align-items: center;
