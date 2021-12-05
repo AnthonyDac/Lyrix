@@ -168,6 +168,19 @@ body {
     min-height: 88vh;
     margin-top: 0px;
   }
+  .lyricsContainer pre {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    opacity: 0;
+    animation: slider2 2s 1s forwards;
+  }
 }
 @media screen and (max-width: 426px) {
   .navBar {
